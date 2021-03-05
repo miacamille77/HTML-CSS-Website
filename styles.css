@@ -47,6 +47,93 @@ body{
   }
 }  
   
+.container{
+  margin: 100px auto;
+  width: 70%;
+  text-align: center;
+}   
+    
+ 
+    
+  
+  
+     
+
+.content{
+  
+}
+
+/* GALLERY CSS */
+
+
+/*Gallery CSS*/
+
+
+.text p {
+  margin-top: 20px;
+  line-height: 40px;
+  text-indent: 50px;
+  
+  
+}
+footer{
+  text-align: center;
+  margin: 100px auto 50px;
+}
+
+
+
+/* _____GALLERY______ */
+
+.gallery-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container .image{
+  width: 20px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 5px
+    rgba(0,0,0,.25);
+  overflow: hidden;
+}
+
+.gallery-container .image
+img {
+height: 100%;
+  width: 100%;
+  object-fit:cover;
+  object-position: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+ .gallery-container .image
+img:hover{
+  transform: scale(1.2);
+}
+
+ 
+
+    grid-template-colums: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+   align-items: center;
+    
+    li {
+    
+      padding: 0 20px;
+    }
+  }
+}  
+  
     
     
  
